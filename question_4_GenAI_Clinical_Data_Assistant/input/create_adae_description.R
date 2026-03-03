@@ -2,7 +2,7 @@
 ### Purpose: parse the ae.R file using regular expressions from base R to produce the file adae_description.csv containing
 # the description of each column in the adae dataset. pharmaversesdtm::ae  is saved as adae.csv to be used by the Code.py script
 ### Inputs: adae dataset, adae.description.
-### Outputs: dae.csv, adae_description.csv
+### Outputs: adae.csv, adae_description.csv
 
 ### Saving pharmaversesdtm::ae as adae.csv
 pharmaversesdtm::ae |>
