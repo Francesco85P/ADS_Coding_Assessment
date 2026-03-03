@@ -1,7 +1,7 @@
-# Script: 02_create adsl.R
-# Purpose: Create an ADSL (Subject Level) dataset using SDTM source data, the {admiral} family of packages, and tidyverse tools.
-# Inputs: sdtm data, safety_specs.xlsx
-# Output: ADSL.csv
+### Script: 02_create adsl.R
+### Purpose: Create an ADSL (Subject Level) dataset using SDTM source data, the {admiral} family of packages, and tidyverse tools.
+### Inputs: sdtm data, safety_specs.xlsx
+### Output: ADSL.csv
 
 ### Import required packages
 library(admiral)
@@ -61,7 +61,7 @@ adsl_preds <- build_from_derived(
 ### Derive AGEGR9 and AGEGR9N
 # Following the ADSL Pharmaverse Example, a look-up table is used to derive AGEGR9 and AGEGR9N from AGE.
 # The categories are created following the indications provided.
-# fIf AGE is missing AGEGR1 is mapped to "Missing" and AGEGR1N to 4
+# If AGE is missing AGEGR1 is mapped to "Missing" and AGEGR1N to 4
 agegr1_lookup <- exprs(
   ~condition,
   ~AGEGR1,

@@ -1,7 +1,7 @@
-# Script: 01_create ae_summary_table.R
-# Purpose: Create outputs for adverse events summary using the ADAE dataset and {gtsummary}
-# Inputs: adae, adsl datasets
-# Output: SummaryTable.html
+### Script: 01_create ae_summary_table.R
+### Purpose: Create outputs for adverse events summary using the ADAE dataset and {gtsummary}
+### Inputs: adae, adsl datasets
+### Output: SummaryTable.html
 
 ### Import required libraries
 library(dplyr)

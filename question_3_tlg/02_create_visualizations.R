@@ -1,7 +1,7 @@
-# Script: 02_create visualizations.R
-# Purpose: Create outputs for adverse events summary using the ADAE dataset and ggplot
-# Inputs: adae dataset
-# Outputs: AE_severity_distribution_by_treatment.png, Top_10_most_frequent_AEs.png"
+### Script: 02_create visualizations.R
+### Purpose: Create outputs for adverse events summary using the ADAE dataset and ggplot
+### Inputs: adae dataset
+### Outputs: AE_severity_distribution_by_treatment.png, Top_10_most_frequent_AEs.png"
 
 #### Import required libraries
 library(ggplot2)

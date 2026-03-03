@@ -1,7 +1,7 @@
-# Script: 01_create_ds_domain.R
-# Purpose: Create the SDTM DS domain from raw data using controlled terminology.
-# Inputs: ds_raw, study_ct.csv, dm
-# Output: SDTM_DS_domain.csv
+### Script: 01_create_ds_domain.R
+### Purpose: Create the SDTM DS domain from raw data using controlled terminology.
+#### Inputs: ds_raw, study_ct.csv, dm
+#### Output: SDTM_DS_domain.csv
 
 ### Import required packages
 library(dplyr)
