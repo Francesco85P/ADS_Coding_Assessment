@@ -10,7 +10,7 @@ In the output folder the SDTM_DS_domain.csv is the SDTM_ds dataset produced
 The file 02_create_adsl.R is the R script that creates the ADSL dataset and contains comments to explain the procedure followed and the derivations.
 The file 02_create_adsl.log is the log file.
 In the input folder there is the file safety_specs.xlsx. This file contains the ADAM variables metadata and was downloaded from:
-https://github.com/pharmaverse/examples/blob/main/metadata
+https://github.com/pharmaverse/examples/blob/main/metadata/safety_specs.xlsx
 In the output folder the ADSL.csv is the ADaM ADSL dataset produced
 
 - The folder question_3_tlg contains the scripts and output files for the third question: TLG (Tables, Listings, and Graphs) - Adverse Events Reporting.
