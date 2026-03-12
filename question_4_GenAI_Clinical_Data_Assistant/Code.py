@@ -102,8 +102,7 @@ Schema:
 {json.dumps(schema, ensure_ascii=False)}  
 JSON schema to output:
 {{ "column": "...", "operator": "...", "value": "...", "clarification_needed": "..." }}
-Rules:
-..."""
+"""
     resp = client.chat.complete(
         model="mistral-small-latest",  ## The mistral-small-latest model is used
         messages=[
